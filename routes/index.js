@@ -20,7 +20,7 @@ function parseCSVToArray(csvPath) {
 function stripToTop100Domains(initialList) {
     let top = initialList.slice(0, 100);
     top = top.map(row => row[1]);
-    top = [...top, "noipv6.wtf", "shitpoststatus.com", "vote.hive.uno", "engine.hive.uno", "hivel.ink", "babushkaspin.com", "featurefilms.co", "hotsingles.cyou", "cookieclicker.dbuidl.com"];
+    top = [...top, "noipv6.wtf", "shitpoststatus.com", "vote.hive.uno", "engine.hive.uno", "hivel.ink", "babushkaspin.com", "cookieclicker.dbuidl.com"];
     return top;
 }
 
